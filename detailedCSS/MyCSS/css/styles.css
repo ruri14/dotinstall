@@ -1,0 +1,47 @@
+.box1 {
+	width: 100px;
+	height: 100px;
+	background-color: salmon;
+	box-shadow: 10px 5px #00000044;
+	text-shadow: 10px 5px #00000044;
+	margin-bottom: 20px
+}
+.box2 {
+	width: 100px;
+	height: 100px;
+	background-color: skyblue;
+	box-shadow: 10px 5px 3px #00000044;
+	text-shadow: 10px 5px 3px #00000044;
+	margin-bottom: 20px
+}
+.box3 {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	box-shadow: 10px 5px 3px 10px #00000044;
+	margin-bottom: 20px
+}
+
+h1::before,h2::before{
+		content: "- "
+}
+h1::after,h2::after{
+		content: "- "
+}
+
+[data-kinds="fruits"] {
+	color: tomato;
+}
+
+.btn {
+	width: 100px;
+	background: skyblue;
+	text-align: center;
+	padding: 4px;
+	color: white;
+	cursor: pointer;   /* カーソルを載せたときのカーソルの形を設定 */
+}
+
+.btn:hover {
+	opacity: 0.5;
+}

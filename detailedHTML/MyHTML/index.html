@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+	<meta charaset="utf-8">
+	<title>comugico's blog</title>
+	<meta name="discription" content="comugicoが運営するブログサイトです。">
+	<link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+	<header>
+		<img src="img/nyanko.jpg" width="300" height="50" alt="comugicoのアイコン画像です。">
+	</header>
+
+	<main>
+	<div style="background-color:grey"><h1><span style="color:pink">c</span>omugico's blog</h1></div>
+	<p>comugicoの日常</p>
+
+	<nav>
+		<ul>
+			<li><a href="#about">このサイトについて</a></li>
+			<li><a href="#myword">好きな言葉</a></li>
+			<li><a href="#hobby">趣味</a></li>
+			<li><a href="#history">経歴</a></li>
+		</ul>
+	</nav>
+
+	<section>
+		<h1 id="about">このサイトについて</h1>
+		<p>Webプログラミング勉強中のcomugicoによるブログサイトです。日々の出来事や勉強した内容について記録しています。英会話も勉強中なので英語についても書くかもしれません。<a href="members.html">メンバー紹介</a>と<a href="lessons/index.html">レッスン一覧</a>もご覧ください<strong>lots of love</strong></p>
+		<hr>
+	</section>
+	
+	<section>
+		<h1 id="#myword">好きな言葉</h2>
+		<blockquote cite="http://kotowaza-allguide.com/su/sukikosomononojyouzu.html#:~:text=%E3%80%90%E5%A5%BD%E3%81%8D%E3%81%93%E3%81%9D%E7%89%A9%E3%81%AE%E4%B8%8A%E6%89%8B%E3%81%AA%E3%82%8C%E3%81%AE%E8%A7%A3%E8%AA%AC%E3%80%91&text=%E8%AA%B0%E3%81%A7%E3%82%82%E5%A5%BD%E3%81%8D%E3%81%A7%E3%82%84%E3%81%A3,%E3%81%93%E3%81%9D%E3%80%8D%E3%81%AB%E5%BF%9C%E3%81%98%E3%81%9F%E4%BF%82%E3%82%8A%E7%B5%90%E3%81%B3%E3%80%82">
+			<pre>   <!-- 書いたものをそのまま表示(改行や空白が無視されない-->
+				<code>
+					好きこそ物の上手なれ&lt;br&gt;   <!-- 文字実態参照-->
+					Do what you love and success will come&lt;br&gt;
+				</code>
+			</pre>
+		</blockquote>
+	</section>
+	
+	<section>
+		<h1 id="hobby">趣味</h2>
+		&lt;ul&gt;&lt;/ul&gt;
+		<ul>
+			<li>プログラミング</li>
+			<li>英語</li>
+			<li>ピアノ</li>
+		</ul>
+		&lt;ol&gt;&lt;/ol&gt;
+		<ol>
+			<li>プログラミング</li>
+			<li>英語</li>
+			<li>ピアノ</li>
+		</ol>
+		&lt;dl&gt;&lt;/dl&gt;
+		<dl>
+			<dt>プログラミング</dt>
+			<dd>python, HTML, CSS, SQL</dd>
+			<dt>英語</dt>
+			<dd>英会話(イギリス英語)</dd>
+			<dt>技術ブログ</dt>
+			<dd><a href="https://qiita.com/ruri14" target="_blank">ruri14のQiita</a></dd>
+		</dl>
+	</section>
+	
+	<section>
+		<h1 id="history">経歴</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>year</th>
+					<th>place</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1995</td>
+					<td>宮城県</td>
+				</tr>
+				<tr>
+					<td>2013</td>
+					<td>長野県</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>東京都</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<p><a href="#">先頭に戻る</a></p>
+
+	<section>
+		<h1>記事一覧</h1>
+		<article>
+			<h1>title</h1>
+			<p>んじゃめな</p>
+			<footer>投稿日:<time>2222-22-22</time> by @comugico</footer>
+		</article>
+		<article>
+			<h1>title</h1>
+			<p>んじゃめな</p>
+			<footer>投稿日:<time>2222-22-22</time> by @comugico</footer>
+		</article>
+	</section>
+
+	<section>
+		<h1>ドロップダウンリスト</h1>
+		<label for="card_month">カード期限　月</label>
+		<select id="card_year">
+			<option selected>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+		</select>
+		<label for="card_year">　年</label>
+		<select id="card_year" size="3">
+			<option selected>2020</option>
+			<option>2021</option>
+			<option>2022</option>
+		</select>
+	</section>
+
+	<section>
+		<h1>チェックボックス</h1>
+		<fieldset>
+			<legend>好きなスマホ</legend>
+			<lavel><input type="checkbox"> iPhone</lavel>
+			<label><input type="checkbox" checked> Android</label>
+			<label><input type="checkbox"> その他</label>
+		</fieldset>
+	</section>
+	
+	<section>
+		<h1>ラジオボタン</h1>
+			<fieldset>
+				<legend>一番好きなスマホ</legend>
+				<lavel><input type="radio" name="phone"> iPhone</lavel>
+				<label><input type="radio" name="phone" checked> Android</label>
+				<label><input type="radio" name="phone"> その他</label>
+			</fieldset>
+	</section>
+	
+	<section>
+		<h1>HTML5で使えるinput</h1>
+		<p><input type="color"></p>
+		<p><input type="date"></p>
+		<p><input type="number"></p>
+		<p><input type="range"></p>
+	</section>
+
+	<section>
+		<h1>ボタン</h1>
+		<input type="button" value="on">
+		<button>on</button>
+		<button disabled>off</button>
+	</section>
+	</main>
+
+</body>
+</html>
+
